@@ -1,0 +1,153 @@
+#menu-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 220px;
+  border-right: 1px solid #070707;
+  overflow-y: auto;
+  background: #070707;
+  transition:0.2s;
+   -webkit-transition:0.2s;
+}
+
+@media screen and (max-width: 460px){
+  #menu-wrapper{
+    margin-left: -100%;
+  }
+  #main-wrapper{
+    padding-left: 0px !important;
+  }
+}
+@media print{
+  #main-wrapper{
+    padding:0;
+  }
+}
+
+@media screen and (min-width: 461px){
+  #menu-wrapper{
+    margin-left: 0;
+  }
+  #main-wrapper{
+    padding-left: 220px;
+  }
+}
+.tz-link>a{
+  font-size:1.3em;
+  color: white !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+.tz-college, .tz-city{
+  text-transform: capitalize;
+}
+
+.tz-collegeid{
+  text-transform: uppercase;
+}
+.tz-name{
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.tips{
+  cursor: pointer;
+}
+.text-justify>p{
+  text-align: justify;
+}
+.active a{
+  background: #003333 !important;
+  border-radius: 0 !important;
+}
+#menu-wrapper>ul>li>a:hover{
+  border-radius: 0 !important;
+}
+
+
+
+#main-wrapper {
+  width: 100%;
+  padding-left: 220px;
+  transition:0.3s;
+   -webkit-transition:0.3s;
+}
+.tz-title{
+  text-align: center;
+  font-size: 1.2em;
+}
+.tz-id{
+  border: 1px solid #003333;
+  font-size: 1em;
+}
+.tz-hr{
+  margin:3px 0px;
+  border-color: silver;
+}
+
+.tz-table input{
+  background-color: transparent !important;
+  border: 0;
+}
+
+.tz-well{
+  border-radius: 0 !important;
+  background-color:#006769;
+  color: white;
+  cursor: pointer;
+  transition:0.3s;
+  -webkit-transition:0.3s;
+  /*text-align: center;*/
+}
+.tz-well:hover{
+  background-color:#003333;
+  color: white;
+}
+#img-header{
+  background: #191818 url('../images/header.png') no-repeat center center;
+  height:100px;
+  background-size: 400px 60px;
+}
+@media print
+{
+ #main-wrapper {
+  width: 100%;
+  padding-left: 0px;
+}
+#slip
+{
+  font-size:10px;
+}
+}
+#menu {
+  padding-top: 20px;
+}
+#menu a {
+  color: #FFFFFF;
+}
+#menu a:hover {
+  color: #000000;
+}
+#menu li.separator {
+  border-bottom: 1px solid #333;
+}
+#menu li.disabled:hover a{
+  color: #999999;
+}
+#header {
+  border-bottom: 1px solid #eee;
+}
+#footer {
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+}
+#content {
+  padding-top: 30px;
+}
+body{
+  background-color: #f3f3f3 !important;
+}
